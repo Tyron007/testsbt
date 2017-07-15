@@ -1,0 +1,12 @@
+
+case class Multiplication(a: Int, b:Int)
+case class Resultat(a: Int)
+
+object maine {
+   def main(array: Array[String]): Unit = {
+   println("hello word from maine")
+   val b = Multiplication(4,5)
+   val c = Resultat(b.a * b.b)
+   }
+
+}
