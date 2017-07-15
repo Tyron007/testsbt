@@ -1,15 +1,40 @@
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
 [0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/tyron/Desktop/Work/testsbt/testsbt/common/src/test/scala/logic.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/tyron/Desktop/Work/testsbt/testsbt/common/src/test/scala/logic.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/tyron/Desktop/Work/testsbt/testsbt/common/src/test/scala/logic.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/tyron/Desktop/Work/testsbt/testsbt/common/src/test/scala/logic.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/tyron/Desktop/Work/testsbt/testsbt/common/target/scala-2.10/test-classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 57df16df, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/tyron/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/tyron/Desktop/Work/testsbt/testsbt/common/target/scala-2.10/test-classes:/home/tyron/Desktop/Work/testsbt/testsbt/common/target/scala-2.10/classes:/home/tyron/.ivy2/cache/org.specs2/specs2-core_2.10/jars/specs2-core_2.10-3.9.1.jar:/home/tyron/.ivy2/cache/org.specs2/specs2-matcher_2.10/jars/specs2-matcher_2.10-3.9.1.jar:/home/tyron/.ivy2/cache/org.specs2/specs2-common_2.10/jars/specs2-common_2.10-3.9.1.jar:/home/tyron/.ivy2/cache/org.scalaz/scalaz-core_2.10/bundles/scalaz-core_2.10-7.2.12.jar:/home/tyron/.ivy2/cache/org.scalaz/scalaz-effect_2.10/bundles/scalaz-effect_2.10-7.2.12.jar:/home/tyron/.sbt/boot/scala-2.10.6/lib/scala-reflect.jar:/home/tyron/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.1.0.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 2.515842303 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/tyron/Desktop/Work/testsbt/testsbt/common/src/test/scala/logic.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/tyron/Desktop/Work/testsbt/testsbt/common/src/test/scala/logic.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/tyron/Desktop/Work/testsbt/testsbt/common/src/test/scala/logic.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/tyron/Desktop/Work/testsbt/testsbt/common/src/test/scala/logic.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/tyron/Desktop/Work/testsbt/testsbt/common/src/test/scala/logic.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	executionEnvFunctionIsInterpolatedFragment, seqToResult, blockExample, TupleMatcher8, specStructureIsInterpolatedFragment, describeExpectation, argumentsFunctionIsInterpolatedFragment, descriptionToFragmentsIsInterpolatedFragment, envFunctionIsInterpolatedFragment, typedEqualExpectation, asResult, toNotStringMatcher, akaShould, thisBlock, fragmentAsSpecStructure, ContainSeqMatcherFunction, resultFunction, matcherSeqIsContainCheckSeq, functionToMatcher, TupleMatcher11, bangExample, implicitsAreAllowed, TupleMatcher3, TupleMatcher14, EitherResultMatcher, executionIsInterpolatedFragment, akaMust, AdaptFunction, functionAndMessagesToMatcher, fragmentsFormatting, ExceptionMatcherResult, stringAsSpecStructure, implicitParameter7, toNeutralMatcherNumeric, TupleMatcher10, anyBeHaveMatcher, implicitParameter4, fragmentFormatting, specificationRefIsInterpolatedFragment, toMapValueResultMatcher, functionToMatcher2, anyAsResultIsInterpolatedFragment, TupleMatcher21, mutableSeeFragment, fragmentIsInterpolatedFragment, appendToFragments, toNeutralMatcherOrdered, executorServiceFunctionIsInterpolatedFragment, InvariantMatcherFunction, pairFunctionToMatcher, theValue, anyToArgProperty, implicitParameter6, combineBoolean, TupleMatcher6, TupleMatcher15, functionIsValueCheck, MatcherFunction, stringMatcher, TupleMatcher7, FutureMatchable, toMapKeyResultMatcher, timesFor, FragmentsTaggedAs, toStringResultMatcher, tripletFunctionToMatcher, mutableLinkFragment, fragmentToFragments, partialfunctionIsValueCheck, toTryResultMatcher, appendSpecStructureToSpecHeader, stringIsInterpolatedFragment, statsRepositoryFunctionIsInterpolatedFragment, specHeaderAsStructure, downcastBeEqualTypedValueCheck, describe, fragmentsAsSpecStructure, commandLineFunctionIsInterpolatedFragment, specificationStructureIsInterpolatedFragment, resultAsSpecStructure, stringMatcherFunctionToBynameMatcherFunction, TupleMatcher20, implicitParameter1, SignificantFiguresSyntax, debug, TupleMatcher22, futureAsResult, eg, functionAndKoMessageToMatcher, matcherIsValueCheck, implicitParameter5, TupleMatcher5, TupleMatcher16, SignificantSyntax, textFragment, appendToString, toAnyMatcherResult, stringFunctionIsInterpolatedFragment, implicitParameter9, theBlock, appendSpecStructureToString, appendToFragment, toOrderedResultMatcher, combineMatchResult, ***If you see this message this means that you've forgotten an operator after the description string: you should write "example" >> result ***, checkableSeqIsContainCheckSeq, FragmentTaggedAs, specStructureAsFragments, toAnyRefMatcherResult, HiddenFragment, ToDelta, MutedFragment, executionContextFunctionIsInterpolatedFragment, toPendingUntilFixed, toMapResultMatcher, TupleMatcher12, postfixOpsAreAllowed, implicitParameter2, TupleMatcher19, matchResultFunctionToMatcher, lazyParameter, TupleMatcher17, orderedSeqMatchResult, asResultIsInterpolatedFragment, implicitParameter10, specificationInStringContext, TupleMatcher18, anyWithEmpty, appendSpecStructureToFragment, traversable, toNeutralStringMatcher, TupleMatcher4, title, appendSpecStructureToFragments, linkFragment, TupleMatcher9, toBeLikeResultMatcher, thisValue, combineResult, seeFragment, implicitParameter8, toNumericResultMatcher, toResult, stepParserIsInterpolatedFragment, executionEnvToExecutionContext, fromMatchResult, sized, toPartialFunctionResultMatcher, implicitParameter, TupleMatcher13, executionEnvToExecutorService, appendToArguments, toOptionResultMatcher, fragmentsIsInterpolatedFragment, toClassMatcherResult, implicitParameter3, TupleMatcher2, appendSpecStructureToSpecStructure.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

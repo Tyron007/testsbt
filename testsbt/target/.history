@@ -44,3 +44,13 @@ test
 reload
 test
 ~test
+show g
+show makeversionProperties
+reload
+show makeversionProperties
+reload
+common/test
+project
+reload
+common/test
+reload
